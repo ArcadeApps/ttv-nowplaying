@@ -10,6 +10,10 @@
 	<br />
 	<span>{$page.data?.session?.user.email}</span>
 	<br />
+	<span>{$page.data?.session?.user.id}</span>
+	<br />
+	<span>{$page.data?.session?.accessToken}</span>
+	<br />
 	<img src={$page.data?.session?.user.image} alt="Spotify profile" />
 {:else}
 	<button on:click={() => signIn('spotify')}>Sign in to spotify</button>
