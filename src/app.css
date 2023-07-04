@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-    --bg-default: @apply bg-zinc-800;
-}
-html, body{
-    background-color: var(--bg-default);
+html,
+body {
+	@apply bg-zinc-800 text-white;
 }
