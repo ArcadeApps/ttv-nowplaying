@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: ["ArcadeApps/Twitch"]
+        repo: ["ArcadeApps/Arcade.Twitch"]
     steps:
       - name: Push to repo
         uses: peter-evans/repository-dispatch@v1
